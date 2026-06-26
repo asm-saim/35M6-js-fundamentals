@@ -54,3 +54,10 @@ console.log("5" * 2); //convert to a number
 
 // Tip: In modern JavaScript, prefer === over == to avoid unexpected type coercion during comparisons.
 
+// Interview Definition
+// ! (Logical NOT): Converts a value to a boolean and then reverses it.
+// !! (Double NOT): Converts any value to its boolean equivalent (true or false).
+
+// ! = Reverse 
+// !! = Convert to Boolean
+
