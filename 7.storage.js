@@ -6,9 +6,19 @@ const handleInput = () => {
 
     //suppose, we store the input in a object, how to push this in local Storage 
     const info = { loadName, loadId }
-    localStorage.setItem(loadId, JSON.stringify(info))
+    const jsonData = localStorage.setItem(loadId, JSON.stringify(info))
 
+}
 
+//parse:
+
+const storedValue = localStorage.getItem(455)
+console.log(storedValue)
+console.log(JSON.parse(storedValue))
+
+//clear:
+handleClear = () => {
+    localStorage.clear()
 }
 
 //local Storage exists permanently, until manually removed.
