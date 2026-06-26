@@ -7,7 +7,7 @@ const info = [
     { name: "Hasim", age: 56, location: "Khulna" },
     { name: "Yahia", age: 22, location: "USA" },
 ]
-//map
+//map: will return a new array
 const loc = info.map(all => all.location)
 console.log(loc)
 
@@ -16,11 +16,11 @@ console.log(loc)
 // console.log(values)
 info.forEach(value => console.log(value.age))
 
-//filter:( assign a condition)
+//filter:( assign a condition, returns a new matched array)
 const peoples = info.filter(people => people.age >= 40)
 console.log(peoples)
 
-//find: will return an object, and a single value
+//find: will return a single element whether object/value.
 const singleInfo = info.find(people => people.name === "Wasim")
 console.log(singleInfo) 
 
