@@ -38,8 +38,8 @@ console.log(friends);
 friends.unshift("Yamin");
 console.log(friends);
 
-const sliceValue = friends.slice(1, 4);
-console.log(sliceValue);
+console.log("slice:", friends.slice(1, 2));
+console.log("splice:", friends.splice(1, 2));
 
 //isArray
 console.log(Array.isArray(friends))
